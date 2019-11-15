@@ -10,7 +10,7 @@ import linecache
 from threading import Thread
 
 channel_url = ""
-proxies_file = "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&ssl=yes"
+proxies_file = "Proxies_txt/good_proxy.txt"
 processes = []
 max_nb_of_threads = 1000
 
